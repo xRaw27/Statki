@@ -1,0 +1,76 @@
+.pole {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    margin-left: -1px;
+    margin-top: -1px;
+    float: left;
+}
+.pole2 {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    margin-left: -1px;
+    margin-bottom: 15px;
+    float: left;
+}
+.statek {
+    clear: both;
+}
+.pole:nth-child(10n+2) {
+    clear: both;
+}
+.blue {
+    background-color: steelblue;
+}
+.red {
+    background-color: crimson;
+}
+
+.green {
+    background-color: seagreen;
+}
+#stateczki {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#cmp {
+    position: absolute;
+    top: 10px;
+    right: 20%;
+}
+#player {
+    position: absolute;
+    top: 10px;
+    left: 400px;
+}
+.napis {
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 30px;
+}
+.dot {
+    background-image: url("dot.png");
+    background-size: 100%;
+}
+.x {
+    background-image: url("x.png");
+    background-size: 100%;
+}
+button {
+    position: relative;
+    display: block;
+    top: 600px;
+    margin: 0 auto;
+}
+.zatopiony{
+    width: 36px;
+    height: 36px;
+    border: 3px solid black;
+}
+@media only screen and (max-width: 1600px) {
+    #cmp {
+        top: 550px;
+    }
+}

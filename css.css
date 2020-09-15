@@ -1,3 +1,11 @@
+#main {
+    margin-top: 30px;
+    min-width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 60px;
+    padding-right: 60px;
+}
 .pole {
     width: 40px;
     height: 40px;
@@ -36,14 +44,10 @@
     left: 10px;
 }
 #cmp {
-    position: absolute;
-    top: 10px;
-    right: 20%;
+    width: 410px;
 }
 #player {
-    position: absolute;
-    top: 10px;
-    left: 400px;
+    width: 410px;
 }
 .napis {
     text-align: center;
@@ -59,10 +63,8 @@
     background-size: 100%;
 }
 button {
-    position: relative;
+    margin: 60px auto;
     display: block;
-    top: 600px;
-    margin: 0 auto;
 }
 .zatopiony{
     width: 36px;
